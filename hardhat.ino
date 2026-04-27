@@ -14,8 +14,8 @@ uint8_t records[7];
 uint8_t buf[64];
 
 int R = 4;
-int B = 5;
-int G = 6;
+int G = 5;
+int B = 6;
 int servoPin0=7;
 int servoPin1=8;
 #define onRecord    (0)
