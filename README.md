@@ -68,17 +68,14 @@ The [Voice Recognition Module V3](https://www.elechouse.com/product/speak-recogn
 * Release 3D models
 
 ---
-# Miles' Hard Hat
----
-I recreated Miles', my fursona's, Hard Hat in real life!
 
-![Hardhat GIF](media/hardhat.gif)
+## Star History
 
----
-
-## How it works?
-
-![Demo Image](media/demo.png)
-
-The ![Voice Recognition Module V3](https://www.elechouse.com/product/speak-recognition-voice-recognition-module-v3/) recognises one of the previously trained commands and sends a signal to the microcontroller telling it to activate the right output device.
-
+<a href="https://www.star-history.com/?repos=DaDogeDev%2FMiles-Hard-Hat&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=DaDogeDev/Miles-Hard-Hat&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=DaDogeDev/Miles-Hard-Hat&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=DaDogeDev/Miles-Hard-Hat&type=date&legend=top-left" />
+ </picture>
+</a>
+  
