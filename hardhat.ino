@@ -1,23 +1,29 @@
+// Setup, adding lbraries and initializing pins
+
 #include <SoftwareSerial.h>
 #include <Servo.h>
 #include "VoiceRecognitionV3.h"
 #include <LiquidCrystal_I2C.h>
 
-VR myVR(3,2); 
+VR myVR(3,2);
+// D2 → TX (Voice Recognition Module)
+// D3 → RX (Voice Recognition Module)
 
-LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27,16,2);
-Servo servo_0;
+LiquidCrystal_I2C lcd = LiquidCrystal_I2C(0x27,16,2); // Setting up LCD
+Servo servo_0; // Setting up servos
 Servo servo_1;
 int pos=0;
 
 uint8_t records[7];
 uint8_t buf[64];
 
-int R = 4;
-int G = 5;
-int B = 6;
-int servoPin0=7;
+int R = 4; // RGB LED red pin
+int G = 5; // RGB LED green pin
+int B = 6; // RGB LED blue pin
+int servoPin0=7; // Servo Signal Pins
 int servoPin1=8;
+
+// Defining voice commands
 #define onRecord    (0)
 #define offRecord   (1) 
 #define happyRecord (2)
@@ -39,6 +45,7 @@ void printSignature(uint8_t *buf, int len)
   }
 }
 
+// Serial monitor output for the voice recognition module
 void printVR(uint8_t *buf)
 {
   Serial.println("VR Index\tGroup\tRecordNum\tSignature");
